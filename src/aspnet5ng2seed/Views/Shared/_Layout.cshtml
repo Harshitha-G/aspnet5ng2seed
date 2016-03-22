@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular 2 QuickStart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="styles/bootstrap.css" asp-href-include="styles/*.css" asp-append-version="true">
+    <link href="~/fonts/font.css" rel="stylesheet" />
+    <link href="~/styles/ng2-material.css" rel="stylesheet" />
+    <!-- Js -->
+    <script src="libs/jquery.js"></script>
+    <script src="libs/bootstrap.js"></script>
+
+    <!-- 1. Load libraries -->
+    <!-- IE required polyfills, in this exact order -->
+    <script src="libs/es6-shim.min.js"></script>
+    <script src="libs/system-polyfills.js"></script>
+    <script src="libs/angular2/shims_for_IE.js"></script>
+    <script src="libs/typescript.js"></script>
+
+    <script src="libs/angular2/angular2-polyfills.js"></script>
+    <script src="libs/system.src.js"></script>
+    <script src="libs/rx.js"></script>
+    <script src="libs/angular2/angular2.dev.js"></script>
+    <script src="libs/angular2/http.dev.js"></script>
+    <script src="libs/angular2/router.dev.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script src="~/app/config.js"></script>
+
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "aspnet5ng2seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^1.8.9",
+    "typings": "^0.6.10",
+    "gulp": "^3.9.1",
+    "lodash": "^3.10.1",
+    "gulp-uglify": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-cssmin": "^0.1.7",
+    "del": "^2.2.0",
+    "rimraf": "^2.2.8",
+    "ng2-material": "^0.2.2"
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-beta.10",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.33.13",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.2",
+    "zone.js": "^0.5.15”,",
+    "systemjs": "^0.19.6",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.1.4"
+  }
+}
